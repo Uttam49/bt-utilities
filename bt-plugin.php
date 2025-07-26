@@ -2,7 +2,7 @@
 /*
 Plugin Name: BT Utilities
 Description: Allows adding custom code to the header and footer of your WordPress site.
-Version: 1.0
+Version: 2.0
 Author: Uttam Purohit
 */
 
@@ -21,8 +21,8 @@ require_once plugin_dir_path(__FILE__) . 'bt-header-footer-code.php';
 function bt_header_footer_menu() {
     // Main menu item
     add_menu_page(
-        'BT Utilities',                // Page title
-        'BT Utilities',                // Menu title
+        'BT Utilities Manager',                // Page title
+        'BT Utilities Manager',                // Menu title
         'manage_options',              // Capability
         'bt-utilities',                // Menu slug
         '',      // Function to display content
